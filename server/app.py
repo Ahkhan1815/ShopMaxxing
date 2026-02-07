@@ -12,7 +12,7 @@ load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-@app.route("/cartMaxx")
+@app.route("/cartMaxx", methods=["POST"])
 def cartMaxx():
     defaultProd= [
     "Apple MacBook Air 13-inch (M3, 2024)",
