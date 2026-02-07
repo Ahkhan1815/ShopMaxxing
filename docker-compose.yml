@@ -1,0 +1,11 @@
+services:
+  server:
+    container_name: shopMaxxingServer
+    build:
+      context: server
+      dockerfile: dockerfile
+    ports: 
+      - 4000:4000
+
+
+      
