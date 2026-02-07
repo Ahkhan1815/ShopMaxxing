@@ -1,0 +1,41 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    width: 360px;
+    padding: 12px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  h2, h3 {
+    margin: 8px 0;
+  }
+  
+  #status {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 6px;
+  }
+  
+  ol {
+    padding-left: 18px;
+  }
+  
+  li {
+    margin-bottom: 6px;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
