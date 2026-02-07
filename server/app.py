@@ -25,16 +25,28 @@ def cartMaxx():
     "Ninja AF101 Air Fryer (4 Qt)"
     ]
     
-    defaultPref = [
-    "Under $1200",
-    "Lightweight and portable",
-    "Long battery life",
-    "Strong noise cancellation",
-    "Comfortable for long sessions",
-    "Good for overpronation support",
-    "Easy to clean",
-    "Good for small kitchen"
+    defaultPref = {
+    "laptpps": [
+      "Lightweight",
+      "Under $1400",
+      "Good battery life"
+    ],
+    "HEADPHONES": [
+      "Strong noise cancelation",
+      "Comfortable for long sessions",
+      "Wireless"
+    ],
+    "running shose": [
+      "Good for overpronation",
+      "Comfortable for daily runs",
+      "Durable outsole"
+    ],
+    "tv & home theater": [
+      "At least 55 inches",
+      "Good for movies",
+      "Good contrast in dark scenes"
     ]
+    }
 
     data = request.get_json()
     productName = data.get("productName", defaultProd)
