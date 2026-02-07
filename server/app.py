@@ -15,15 +15,21 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 @app.route("/cartMaxx")
 def cartMaxx():
     defaultProd= [
-    "Apple MacBook Air 13-inch (M3)",
-    "Dell XPS 13",
-    "Sony WH-1000XM5",
+    "Apple MacBook Air 13-inch (M3, 2024)",
+    "Dell XPS 13 Plus",
+    "Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
     "Bose QuietComfort Ultra Headphones",
     "Nike Air Zoom Pegasus 41",
     "ASICS Gel-Kayano 31",
-    "Instant Pot Duo 7-in-1 (6 Qt)",
-    "Ninja AF101 Air Fryer (4 Qt)"
-    ]
+    "Samsung 65\" QLED 4K Smart TV",
+    "LG C3 55\" OLED 4K TV",
+    "Dell UltraSharp U2723QE 27\" 4K Monitor",
+    "ASUS TUF Gaming VG27AQ 27\" Gaming Monitor",
+    "JBL Charge 5 Portable Bluetooth Speaker",
+    "Sonos One (Gen 2) Smart Speaker",
+    "Breville Smart Oven Air Fryer",
+    "Cuisinart 4-Slice Compact Toaster"
+  ]
     
     defaultPref = {
     "laptpps": [
