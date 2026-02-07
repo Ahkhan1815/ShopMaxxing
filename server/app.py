@@ -42,7 +42,7 @@ def cartMaxx():
     response = client.responses.create(
     prompt={
         "id": "pmpt_69878f57c9448194abf8fc9a3d3fe45906ae572b4de76c34",
-        "version": "2",
+        "version": "3",
         "variables": {
         "productnames": json.dumps(productName),
         "preferences": json.dumps(preferences)
